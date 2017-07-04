@@ -6,21 +6,21 @@
 #define CELL_PIXEL			20
 
 // 用来绘图的颜色
-#define COLOR_SNAKE			RGB(193, 205, 205)
-#define COLOR_FOOD			RGB(153, 255, 51)
-#define COLOR_BOUNDARY		RGB(139, 134, 130)
+#define COLOR_SNAKE			RGB(128, 0, 255)
+#define COLOR_FOOD			RGB(51, 255, 51)
+#define COLOR_BOUNDARY		RGB(139, 240, 130)
 #define COLOR_TEXT			RGB(173,216,230)
 
 // 游戏的参数的设置 
-#define INIT_TIMER_ELAPSE	300	// 初始的时钟周期，确定游戏初始速度
+#define INIT_TIMER_ELAPSE	100	// 初始的时钟周期，确定游戏初始速度
 #define	ONE_LEVELS_SCORES	5	// 每升级一次需要的计分
-#define INIT_SNAKE_LEN		5	// 蛇的长度
-#define SPEEDUP_RATIO		0.8 // 升级以后时间周期（确定游戏速度）提高的比例。
-#define MAX_X		18	// 游戏界面大小
-#define MAX_Y		20	// 游戏界面大小
+#define INIT_SNAKE_LEN		20	// 蛇的长度
+#define SPEEDUP_RATIO		0.95 // 升级以后时间周期（确定游戏速度）提高的比例。
+#define MAX_X		50	// 游戏界面大小
+#define MAX_Y		10	// 游戏界面大小
 #define INIT_X		3	// 蛇的初始位置
 #define INIT_Y		3	// 蛇的初始位置
-#define INIT_DIR	SNAKE_LEFT	// 蛇的初始方向
+#define INIT_DIR	SNAKE_RIGHT	// 蛇的初始方向
 
 /********************************************************************************
 * ##########关于Windows数据类型##########
